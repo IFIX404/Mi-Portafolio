@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+nav, footer {
+  background-color: #181824;
+  color: #282162;
+}
+section {
+  background-color: #1A1A29;
+}
+.navbar .navbar-brand:hover { 
+  color: #7562E0; 
+}
+.custom-color, .bg-custom-color{
+  color: #7562E0;
+  font-size: 28px;
+}
+.nav-item a {
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+.nav-item a:hover  {
+  color: #7562E0;
+  font-size: 18px;
+  border-bottom: 4px solid #7562E0;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+.about-me {
+  background-color: #1A1A29;
+  color: white;
+}
+.inf h1{
+  font-size: 3.5rem;
+}
+.inf p{
+  font-size: 1.5rem;
+}
+.about-me button{
+  background-color: #7562E0;
+  color: white;
+}
+.about-me button:hover{
+  background-color: #282162;
+  color: white;
+}
+.bg-aboutme {
+  width: 400px; height: 400px;
+}
+#extraText {
+  font-size: 1.5rem;
+}
+.separator {
+  background-color: #181824;
+  width: 100%;
+  height: 50px;
+}
